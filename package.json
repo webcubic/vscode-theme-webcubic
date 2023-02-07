@@ -1,0 +1,40 @@
+{
+	"name": "webcubic-theme",
+	"displayName": "Webcubic Theme",
+	"description": "Allows you to choose different themes for the Visual Studio editor for different tastes and colors.",
+	"version": "0.0.1",
+	"publisher": "webcubic",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"theme",
+		"webcubic",
+        "theme dark",
+        "visualization"
+	],
+	"icon": "images/icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Webcubic (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/webcubic/vscode-theme-webcubic"
+	},
+	"bugs": {
+		"url": "https://github.com/webcubic/vscode-theme-webcubic/issues",
+		"email": "webcubicorg@gmail.com"
+	},
+	"homepage": "https://github.com/webcubic/vscode-theme-webcubic"
+}
